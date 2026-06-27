@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SkillCraft Technology — Home</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <a href="index.html" class="nav-brand"><span class="mark">&lt;/&gt;</span> SkillCraft</a>
+
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="contact.html" class="nav-cta">Get started</a></li>
+  </ul>
+
+  <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </button>
+</nav>
+
+<main>
+  <section class="hero">
+    <p class="eyebrow">Task 01 — Responsive Landing Page</p>
+    <h1>Build the <span class="accent">workshop</span>, then build the work.</h1>
+    <p>A fixed navigation menu that holds its ground while you scroll — transparent at rest, solid and brass-lined once you're past the fold, with a wire-trace underline on every hover.</p>
+    <div class="btn-row">
+      <a href="services.html" class="btn btn-primary">View services</a>
+      <a href="about.html" class="btn btn-secondary">About SkillCraft</a>
+    </div>
+  </section>
+
+  <section class="content">
+    <h2>Scroll down to see the nav change.</h2>
+    <p>Past roughly 24px of scroll, the bar above switches from a transparent overlay to a blurred, solid panel with a brass hairline underneath it — the same behavior carries across every page in this set.</p>
+    <div class="grid-3">
+      <div class="card">
+        <span class="num">01</span>
+        <h3>Fixed position</h3>
+        <p>The nav stays pinned to the top of the viewport on every page, regardless of scroll position.</p>
+      </div>
+      <div class="card">
+        <span class="num">02</span>
+        <h3>Scroll-aware style</h3>
+        <p>Background, blur, and border shift in once the page scrolls past the hero.</p>
+      </div>
+      <div class="card">
+        <span class="num">03</span>
+        <h3>Hover feedback</h3>
+        <p>Each link draws an underline and shifts to brass on hover or keyboard focus.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="content" style="padding-top:0;">
+    <p style="height:60vh;">↓ keep scrolling to confirm the nav holds its fixed position ↓</p>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <span>© 2026 SkillCraft Technology</span>
+  <span>Task 01 — Responsive Landing Page</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
